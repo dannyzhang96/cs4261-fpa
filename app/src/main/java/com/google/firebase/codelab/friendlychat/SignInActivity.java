@@ -75,7 +75,7 @@ public class SignInActivity extends AppCompatActivity implements GoogleApiClient
         // Initialize FirebaseAuth
         mFirebaseAuth = FirebaseAuth.getInstance();
     }
-
+    // Welcomes new user
     private void handleFirebaseAuthResult(AuthResult authResult) {
         if (authResult != null) {
             // Welcome the user
